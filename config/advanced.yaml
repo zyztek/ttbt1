@@ -1,0 +1,16 @@
+# config/advanced.yaml
+proxy:
+  sources:
+    - https://free-proxy-list.net
+    - https://geonode.com/free-proxy-list
+  rotation_interval: 300  # Segundos
+
+ai:
+  comment_enabled: true
+  model: gpt2-medium
+  max_length: 70
+
+safety:
+  max_daily_actions: 800
+  allowed_countries: [mx, us, es]
+  block_keywords: [violence, adult]

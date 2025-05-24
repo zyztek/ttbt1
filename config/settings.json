@@ -1,0 +1,26 @@
+{
+    "behavior_profiles": {
+        "safe": {
+            "views_per_hour": 50,
+            "like_probability": 0.6,
+            "scroll_variation": "medium"
+        },
+        "balanced": {
+            "views_per_hour": 100,
+            "like_probability": 0.75,
+            "scroll_variation": "high"
+        },
+        "aggressive": {
+            "views_per_hour": 150,
+            "like_probability": 0.85,
+            "scroll_variation": "random"
+        }
+    },
+    "proxy_settings": {
+        "rotation_interval": 15,
+        "sources": [
+            "https://free-proxy-list.net",
+            "https://geonode.com/free-proxy-list"
+        ]
+    }
+}

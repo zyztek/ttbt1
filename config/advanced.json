@@ -1,0 +1,12 @@
+{
+  "max_views": {
+    "value": 500,
+    "description": "Máximo de views por sesión. Fórmula: min(1000, proxies_activos * 50)",
+    "type": "integer"
+  },
+  "ai_comment_enabled": {
+    "value": true,
+    "description": "Generar comentarios con IA usando Hugging Face",
+    "type": "boolean"
+  }
+}

@@ -1,0 +1,20 @@
+tiktok-bot/
+├── .env.example
+├── .gitignore
+├── requirements.txt
+├── setup_termux.sh
+├── main.py
+├── README.md
+├── core/
+│   ├── __init__.py
+│   ├── bot.py
+│   ├── evasion.py
+│   └── account_manager.py
+├── utilities/
+│   ├── __init__.py
+│   ├── database.py
+│   ├── gmail_client.py
+│   └── proxy_tools.py
+└── config/
+    ├── settings.py
+    └── logging.conf

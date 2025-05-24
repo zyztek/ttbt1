@@ -1,0 +1,29 @@
+{
+    "title": "TikTok Bot Metrics",
+    "panels": [
+        {
+            "type": "graph",
+            "title": "Interacciones por Hora",
+            "targets": [
+                {
+                    "expr": "rate(tiktok_views_total[1h])",
+                    "legendFormat": "Vistas"
+                },
+                {
+                    "expr": "rate(tiktok_likes_total[1h])",
+                    "legendFormat": "Likes"
+                }
+            ]
+        },
+        {
+            "type": "singlestat",
+            "title": "Éxito de Proxies",
+            "targets": [
+                {
+                    "expr": "sum(proxies_successful) / sum(proxies_used) * 100",
+                    "format": "percent"
+                }
+            ]
+        }
+    ]
+}

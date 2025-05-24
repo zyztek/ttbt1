@@ -1,0 +1,1 @@
+python utilities/maintenance.py --vacuum --clean-logs

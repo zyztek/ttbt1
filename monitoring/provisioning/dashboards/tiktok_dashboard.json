@@ -1,0 +1,20 @@
+{
+  "title": "TikTok Bot Metrics",
+  "panels": [
+    {
+      "type": "graph",
+      "title": "Views/Likes Ratio",
+      "targets": [{
+        "expr": "rate(tiktok_views_total[5m]) / rate(tiktok_likes_total[5m])",
+        "legendFormat": "Views por Like"
+      }]
+    },
+    {
+      "type": "stat",
+      "title": "Total Actions",
+      "targets": [{
+        "expr": "sum(tiktok_actions_total)"
+      }]
+    }
+  ]
+}
